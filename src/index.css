@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "flowbite";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* my css code write here */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-main {
+    text-align: center;
+}
+ .title{
+    z-index: 22;
+}
+.title h1 {
+    text-align: center;
+    /* position: relative; */
+    margin-bottom: 40px;
+    color: #6D91EE;
+    z-index: 1;
+}
+/*.line-135::before {
+    content: '';
+    position: absolute;
+    width: 45.25px;
+    height: 2px;
+    background-color: #6D91EE;
+    transform: rotate(-135deg);
+    left: 57%;
+    top: 0px;
+    transform-origin: left center;
+    z-index: -1;
+}
+.line-141::before {
+    content: '';
+    position: absolute;
+    width: 45.25px;
+    height: 2px;
+    background-color: #6D91EE;
+    transform: rotate(141deg);
+    left: 45%;
+    top: -25px;
+    transform-origin: left center;
+    z-index: -1;
+}
+.line-45::before {
+    content: '';
+    position: absolute;
+    width: 45.25px;
+    height: 2px;
+    background-color: #6D91EE;
+    transform: rotate(45deg);
+    left: 42%;
+    top: 23px;
+    z-index: -1;
+    transform-origin: left center;
+}
+.line-45-neg::before {
+    content: '';
+    position: absolute;
+    width: 45.25px;
+    height: 2px;
+    background-color: #6D91EE;
+    transform: rotate(-45deg);
+    left: 55%;
+    top: 63px;
+    transform-origin: left center;
+    z-index: -1;
+}
+.rounded-card{
+    border-radius: 30px;
+}
+@media screen {
+    
+} */
